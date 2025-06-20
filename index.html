@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/logo_round.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- SEO Meta Tags -->
+    <title>Kared Dev - Développeurs associés | Création d'applications web et mobile</title>
+    <meta
+      name="description"
+      content="Kared Dev - Équipe de développeurs associés spécialisés dans la création d'applications web et mobile innovantes. Développement de solutions sur mesure."
+    />
+    <meta
+      name="keywords"
+      content="développeurs, développement web, développement mobile, React, Node.js, applications, portfolio, freelance, équipe développeurs"
+    />
+    <meta name="author" content="Kared Dev" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="French" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kared-dev.fr" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kared-dev.fr" />
+    <meta
+      property="og:title"
+      content="Kared Dev - Développeurs associés | Création d'applications web et mobile"
+    />
+    <meta
+      property="og:description"
+      content="Équipe de développeurs associés spécialisés dans la création d'applications web et mobile innovantes. Développement de solutions sur mesure."
+    />
+    <meta property="og:image" content="https://kared-dev.fr/assets/landing.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Logo Kared Dev - Développeurs associés" />
+    <meta property="og:site_name" content="Kared Dev" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://kared-dev.fr" />
+    <meta property="twitter:title" content="Kared Dev - Développeurs associés" />
+    <meta
+      property="twitter:description"
+      content="Équipe de développeurs associés spécialisés dans la création d'applications web et mobile innovantes."
+    />
+    <meta property="twitter:image" content="https://kared-dev.fr/assets/landing.png" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#7b5dfb" />
+    <meta name="msapplication-TileColor" content="#0d1117" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Kared Dev" />
+
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- DNS Prefetch pour améliorer les performances -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kared Dev",
+        "url": "https://kared-dev.fr",
+        "logo": "https://kared-dev.fr/assets/logo.png",
+        "description": "Équipe de développeurs associés spécialisés dans la création d'applications web et mobile innovantes",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "FR"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service"
+        },
+        "sameAs": ["https://github.com/Kared-Games", "https://linkedin.com/company/kared-dev"]
+      }
+    </script>
+
+    <!-- Additional Structured Data for Portfolio -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Kared Dev Portfolio",
+        "url": "https://kared-dev.fr",
+        "description": "Portfolio de l'équipe Kared Dev - Développeurs associés",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kared Dev"
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-D7W0TNF3PE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-D7W0TNF3PE");
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

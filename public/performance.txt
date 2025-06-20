@@ -1,0 +1,22 @@
+# Configuration de performance pour Kared Dev
+# Optimisations SEO et Web Vitals
+
+## Core Web Vitals cibles
+- LCP (Largest Contentful Paint): < 2.5s
+- FID (First Input Delay): < 100ms
+- CLS (Cumulative Layout Shift): < 0.1
+
+## Optimisations mises en place
+- Compression GZIP/Brotli
+- Minification CSS/JS
+- Optimisation des images (WebP)
+- Lazy loading
+- Preconnect/DNS prefetch
+- Service Worker pour le cache
+- CDN pour les ressources statiques
+
+## Monitoring
+- Google PageSpeed Insights
+- Lighthouse CI
+- Web Vitals monitoring
+- Real User Monitoring (RUM) 

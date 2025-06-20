@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Build performance
+stats.html
+
+# Coverage
+.nyc_output
+coverage
+screenshots
+
+# Editor directories and files
+!.vscode/extensions.json
+.firebase
+.idea
+.DS_Store
+# Coverage
+.nyc_output
+coverage
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.cache
+*.7z

@@ -1,0 +1,17 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kared.karedfit",
+      "sha256_cert_fingerprints": [
+        "E2:85:CF:0E:E3:86:01:08:1C:E4:70:4C:B5:E8:AA:BE:5D:FB:9B:7B:87:8D:8E:7B:02:43:AA:55:CA:02:11:CE",
+        "F4:DA:4D:DA:0E:55:FA:98:28:36:B5:93:62:07:A8:10:D6:CC:5C:32:B3:E9:81:17:E0:14:51:E5:52:A0:5D:7F",
+        "16:4E:35:AE:B6:80:52:C9:45:F4:92:D7:BB:F5:6B:A1:A1:74:2F:D2:5A:D9:08:9F:97:F3:56:EF:E2:30:A7:37"
+      ]
+    }
+  }
+]

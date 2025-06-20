@@ -1,0 +1,7 @@
+# Redirections pour améliorer le SEO
+/accueil / 301
+/home / 301
+/index / 301
+
+# Gestion des erreurs 404
+/* /index.html 200 

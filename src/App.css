@@ -1,0 +1,20 @@
+#root {
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Personnalisation de la barre de défilement */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 54, 248, 0.5);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(90, 54, 248, 0.8);
+}
